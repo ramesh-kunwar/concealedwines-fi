@@ -19,13 +19,13 @@ const Jumbotron = () => {
             Read More
           </Button>
         </div>
-        <div className="">
+        <div className="-z-10">
           <Image
             src="/images/wine-header.webp"
             width={500}
             height={500}
             alt="Header Wine"
-            className=" rotate-[30deg] z-0 ml-12"
+            className=" rotate-[30deg] -z-10 ml-12"
           />
         </div>
       </div>
